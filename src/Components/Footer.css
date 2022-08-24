@@ -1,0 +1,12 @@
+.mana{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 170px;
+    background: radial-gradient(ellipse at bottom, #54575c 0%, #222722 100%);
+}

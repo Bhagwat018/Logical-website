@@ -1,0 +1,11 @@
+#vijay{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    flex-flow: row wrap;
+    
+
+}
+.card{
+    margin-bottom: 15px;
+}

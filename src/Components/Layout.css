@@ -1,0 +1,14 @@
+.rama{
+    background: radial-gradient(ellipse at bottom, #566782 0%, #817462 100%);
+    padding: 50px;
+    margin-top: 50px;
+
+}
+.japan{
+    background-color: transparent !important;
+    padding: 8px;
+    color: bisque;
+    font-weight: bold;
+    margin-top: 10px;
+  
+}

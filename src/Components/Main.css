@@ -1,0 +1,86 @@
+
+.contanier {
+    width: 100vw;
+height: 90vh;
+background-size: contain;
+ background: radial-gradient(ellipse at bottom, #54575c 0%, #222722 100%);
+
+}
+.same{
+color: white;
+
+}
+#rama1{color: rgb(242, 81, 32);
+font-size: x-large;
+font-weight: bold;
+
+}
+#rama{
+color: white;
+margin-left: 80px;
+
+
+font-size: x-large;
+font-weight: bold;
+}
+.col-lg-6{
+margin-top: 300px;
+}
+#imggg{
+height: 350px ;
+width: 400px;
+margin-left: 50px;
+}
+@media screen and ( min-width: 400px)
+{
+#imggg{
+    height: 250px ;
+    width: 300px;
+    
+    text-align: center;
+
+  }
+  .col-lg-6{
+    margin-top: 100px;
+  }
+}
+#imggg {
+animation: MoveUpDown 8s linear infinite;
+
+}
+.uniqe{
+  animation: MoveUpDown 8s linear infinite;
+  
+  }
+  #gopal
+  {
+    text-align: end;
+    color: white;
+    font-size: x-small;
+    
+
+  }
+  
+
+@keyframes MoveUpDown {
+0%, 100% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(-30px);
+}
+}
+@media only screen and (max-width:400px){ 
+  #imggg{
+   height: 150px;    
+   width: 150px;
+   margin-right: -300px;
+ 
+    }
+}
+@media only screen and(man-width: 980px){
+  body{
+    background-color: rgb(83, 102, 118);
+  }
+  
+}
